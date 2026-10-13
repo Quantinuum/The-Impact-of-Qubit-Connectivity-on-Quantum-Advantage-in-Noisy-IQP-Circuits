@@ -1,0 +1,35 @@
+{
+  "hardware_label": "SC_3",
+  "hardware_base": "ibm_washington",
+  "standard_qubits": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    24,
+    28,
+    32
+  ],
+  "rhg_qubits": [
+    18,
+    44,
+    90,
+    127
+  ],
+  "samples": 10,
+  "seed": 1234,
+  "logical_circuit_backend": "qiskit",
+  "native_compiler": "pytket",
+  "placement_strategy": "default",
+  "full_device_placement": true,
+  "optimization_level": 2,
+  "n_layers": 1,
+  "qiskit_version": "2.3.1",
+  "pytket_version": "2.15.0",
+  "pytket_qiskit_version": "0.77.0"
+}

@@ -1,0 +1,189 @@
+{
+  "description": "Outputs of the plotting code, using saved circuit CSVs or fixed generator settings. PNG previews rendered at 100 dpi.",
+  "artifacts": [
+    {
+      "pdf": "reproduced/reference/scaling/ratio_vs_qubits_dense.pdf",
+      "png": "reproduced/reference/scaling/ratio_vs_qubits_dense.png",
+      "pdf_sha256": "45af45bec88340859ff1ffcc70684abb83ddfa6e7c30f62360c8639b91f31ebb",
+      "png_sha256": "057082a43cfe8bd83b9d9e20c41d72332b785e14c686b4660fe6d699783232f3",
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_dense.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/percolation/pattern_summaries/dense.pdf",
+      "png": "reproduced/reference/percolation/pattern_summaries/dense.png",
+      "pdf_sha256": "0acecbb6cd7aafa929dc756bea79e3b3992d07fa491f1d1c8e64eff71c9e2905",
+      "png_sha256": "1b145a446d6d0e950a9d9d4da5a12c83ad1f86fa2cdb2292208cf12dfcfa8c7d",
+      "reference": "paper_images/percolation/pattern_summaries32/dense.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/scaling/ratio_vs_qubits_sparse.pdf",
+      "png": "reproduced/reference/scaling/ratio_vs_qubits_sparse.png",
+      "pdf_sha256": "f09b74abe457e2f5725bb3826f232053c26bf648f7a77fc520a66806a9a82b64",
+      "png_sha256": "32d8e3aa26de46799985b4176e2c9710520137e4cb80622d31554097bb4f40ac",
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_sparse.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/percolation/pattern_summaries/sparse.pdf",
+      "png": "reproduced/reference/percolation/pattern_summaries/sparse.png",
+      "pdf_sha256": "3c44789b01192aa152c6d5218ab8ae7ac0d41286971451afd8f2ec6686ef1744",
+      "png_sha256": "30fb6ecd68216b59af99f92bfd0de7bd2edeeae6f86172f87c38f4b315fac8a0",
+      "reference": "paper_images/percolation/pattern_summaries32/sparse.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/scaling/ratio_vs_qubits_local.pdf",
+      "png": "reproduced/reference/scaling/ratio_vs_qubits_local.png",
+      "pdf_sha256": "78e59c1f9ff7fa51a5b5358bff243beaae1139ee5ea05845f9d7ae1bf29db2fa",
+      "png_sha256": "5a4492bea2a3f3ce5db902a9d043fc25efedd0e8f3af6f738ff6bab2a55743e0",
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_local.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/percolation/pattern_summaries/local.pdf",
+      "png": "reproduced/reference/percolation/pattern_summaries/local.png",
+      "pdf_sha256": "32b5cead65cf85ee8f58b7d86dd770004d146595e6a27a20ec766be8d18ef96d",
+      "png_sha256": "08dc778fbde512588bcfd21d9ff2ca337e6ef7d94548bd83c0761659d46b0b4f",
+      "reference": "paper_images/percolation/pattern_summaries32/local.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/scaling/ratio_vs_qubits_rhg.pdf",
+      "png": "reproduced/reference/scaling/ratio_vs_qubits_rhg.png",
+      "pdf_sha256": "877e80a0673f81c2de878ebad841d15e157d6ea2650eba236945e5034402cf23",
+      "png_sha256": "d332cb257a309e520dbed354bade4ef8f7a234ea6d8273d7f68fb66f5688a8e7",
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_rhg_default_notitle_extra_extrapolation_rhg.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/percolation/pattern_summaries/rhg.pdf",
+      "png": "reproduced/reference/percolation/pattern_summaries/rhg.png",
+      "pdf_sha256": "e909ad408fa92aa5ea6dab0d18e66ec759f8de035e317d5085a3f163438ca804",
+      "png_sha256": "c5cfc4c1eddabb0e13e94cf8aeff07978deed5de1bb552781be6aa5602d9d8a2",
+      "reference": "paper_images/percolation/pattern_summaries32/rhg.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/phase/dense_32.pdf",
+      "png": "reproduced/reference/phase/dense_32.png",
+      "pdf_sha256": "594f58814524346486980fbf8827e7f553cef04761a51b3a7ca35856f4506bdc",
+      "png_sha256": "e45cfd0913ee63a36fff10aef8b289e3ec982e98d191ddd1639c7c5659c53589",
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_dense_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/phase/sparse_32.pdf",
+      "png": "reproduced/reference/phase/sparse_32.png",
+      "pdf_sha256": "b21e482f8b163331158ec18b0afc60f49b43cc1394c2b30d898ca4e37d2d0bc3",
+      "png_sha256": "3166e841e14dd6e82c4f8b791d651ecbb9a5fffb77bddbab3a6af767798e2ff4",
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_sparse_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/phase/local_32.pdf",
+      "png": "reproduced/reference/phase/local_32.png",
+      "pdf_sha256": "42898d45e1713264c58677288d5a7c3757b922e850f500d31454b84488ac334e",
+      "png_sha256": "85150875763d32cfaefdbf6fcf687293f10f4c7df542cdf535ab7fa05e0631e1",
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_local_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/phase/rhg_90.pdf",
+      "png": "reproduced/reference/phase/rhg_90.png",
+      "pdf_sha256": "fb189495a14f13865cd347d2e7d0737870568c17daed303302d8710521e888bf",
+      "png_sha256": "4bbdd414be156371a9a9f68fd32fbb9ac1dc560b2623b53af694195a9dcaebf2",
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n90_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/quantinuum_helios.pdf",
+      "png": "reproduced/reference/topologies/quantinuum_helios.png",
+      "pdf_sha256": "c906cd5d1d23e0471943bec30871f7c6141f83088520d92ebff3557731b386ad",
+      "png_sha256": "0613a4bcffffca9d0830008fe33dd687fdc7059a8019193898cec1be87213915",
+      "reference": "paper_images/topologies/devices/fc_1.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/ionq_forte.pdf",
+      "png": "reproduced/reference/topologies/ionq_forte.png",
+      "pdf_sha256": "b83e640aad18fcaa8a961d4ded24deb0847c3f0e6a13799d2c39d1117cbf366b",
+      "png_sha256": "0c3b8ed51977e6005a0cf1691169c304f33d2d6f6efd9db43a63d45d7a2cda00",
+      "reference": "paper_images/topologies/devices/fc_2.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/ladder.pdf",
+      "png": "reproduced/reference/topologies/ladder.png",
+      "pdf_sha256": "e0fbe80aef05435a902f559f84510b3e87c302096341b6ecd9f2211e020a8879",
+      "png_sha256": "5f9029cf8d1509f7413cd696c36c85d339de8dc239b25455d27b6d9b75a421c1",
+      "reference": "paper_images/topologies/devices/ladder.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/rigetti_ankaa.pdf",
+      "png": "reproduced/reference/topologies/rigetti_ankaa.png",
+      "pdf_sha256": "37a849fe6f3958d3c8c00481b555bc5fd14ffa7ea6fdc5332fe70debf37e21f2",
+      "png_sha256": "8feaaa5ebdc0243ce8147513f590eff41269268f6ab7b69997dd56bb2972bb3b",
+      "reference": "paper_images/topologies/devices/sc_4.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/ring.pdf",
+      "png": "reproduced/reference/topologies/ring.png",
+      "pdf_sha256": "6f12be08b1faf3a62ed72512db88a8ee3f830dafbdee9b9e55f0b171ababece9",
+      "png_sha256": "bd1c88873c4b587293b4933cb35030220e1028937493829a5521e398ceae8ae7",
+      "reference": "paper_images/topologies/devices/ring.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/oqc_toshiko.pdf",
+      "png": "reproduced/reference/topologies/oqc_toshiko.png",
+      "pdf_sha256": "ff5e344ebf0ae6f2d57fbf53bf42e676a65e2752744c3999e389784cc7529157",
+      "png_sha256": "127c94fe179994421391e58c049e031265129b7f2e0f24948e8918e43dab1049",
+      "reference": "paper_images/topologies/devices/sc_5.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/google_sycamore.pdf",
+      "png": "reproduced/reference/topologies/google_sycamore.png",
+      "pdf_sha256": "a7054c953f28f34de0a3c3bec3d0e0b02c5a83c6ce465a4a430927aacae427c6",
+      "png_sha256": "21950bc1a6672521f5b785a23506a104fc094ca498e11af56970c983253f0be9",
+      "reference": "paper_images/topologies/devices/sc_2.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/ibm_washington.pdf",
+      "png": "reproduced/reference/topologies/ibm_washington.png",
+      "pdf_sha256": "0233ae0c120d3fa6702b48dafa7d437f916607494df660af1219af36d652bb58",
+      "png_sha256": "498faf8786a8b3a47be8458eea6934ce6ed4f37b55ae0851a0b2069ca09a91a4",
+      "reference": "paper_images/topologies/devices/sc_3.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/google_willow.pdf",
+      "png": "reproduced/reference/topologies/google_willow.png",
+      "pdf_sha256": "c5dbd2d054808e8d1ea3ae2277795a1c2679d171f248d0428ba654a3cd7578b5",
+      "png_sha256": "3907d3197c78d1e80b8abac3301c4873b1afc719cc0eeeeb8d7209915b6c86a6",
+      "reference": "paper_images/topologies/devices/sc_1.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/topologies/line.pdf",
+      "png": "reproduced/reference/topologies/line.png",
+      "pdf_sha256": "92df17641c668678cfd472043f1462f9acaef84c631f9204f6f3519b4bc26a19",
+      "png_sha256": "1f6e700c5fdc0f31028708ef10440777c9030040a52167adbd3dd7639d546d97",
+      "reference": "paper_images/topologies/devices/line.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "pdf": "reproduced/reference/phase/rhg_127.pdf",
+      "png": "reproduced/reference/phase/rhg_127.png",
+      "pdf_sha256": "aba03aa93e8c8a4caaf6545109245eebbe2966abcc3ac4eb5ce3f3ffcdfda6d9",
+      "png_sha256": "564451b29eb8812da36fc86aaa3d20e2c5db4e42e0f4aa03ae41c12ed37ba1bd",
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n127_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "pixel_equal_at_72_dpi": true
+    }
+  ]
+}

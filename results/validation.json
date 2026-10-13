@@ -1,0 +1,624 @@
+{
+  "validation_date": "2026-10-13",
+  "python": "3.10.20",
+  "system": "Darwin",
+  "machine": "arm64",
+  "pdf_renderer": "PyMuPDF 1.28.2",
+  "pytest": {
+    "tests": 44,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "comparison_numeric_tolerance": {
+    "rtol": 1e-12,
+    "atol": 1e-12
+  },
+  "fresh_compilation_summary": {
+    "datasets": 7,
+    "rows": 5100,
+    "depth_exactly_matching_rows": 4854,
+    "baseline_depth_exactly_matching_rows": 5100,
+    "all_columns_numerically_matching_rows": 4821,
+    "all_experiment_processes_exited_successfully": true
+  },
+  "fresh_compilation_comparisons": [
+    {
+      "archived": "paper_images/compilation_overhead/results_default.csv",
+      "fresh_sha256": "396e152a6f361c2b28d2a6ceb691f168b07bdf594ac2bc61164c1a858f0a75cc",
+      "rows": 3960,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 3738,
+      "depth_exactly_matching_rows": 3766,
+      "max_absolute_depth_difference": 582,
+      "baseline_depth_exactly_matching_rows": 3960,
+      "differing_columns": {
+        "swap_count": 185,
+        "single_qubit_gate_count": 89,
+        "two_qubit_gate_count": 192,
+        "depth": 194,
+        "entangling_layer_count": 196,
+        "gate_count": 194,
+        "gate_count_ratio_fc": 209,
+        "gate_count_diff_fc": 209,
+        "depth_ratio_fc": 209,
+        "depth_diff_fc": 209,
+        "entangling_layer_ratio_fc": 211,
+        "entangling_layer_diff_fc": 211,
+        "gate_count_ratio_native_fc": 194,
+        "gate_count_diff_native_fc": 194,
+        "depth_ratio_native_fc": 194,
+        "depth_diff_native_fc": 194,
+        "entangling_layer_ratio_native_fc": 196,
+        "entangling_layer_diff_native_fc": 196
+      }
+    },
+    {
+      "archived": "paper_images/compilation_overhead/results_rhg_default.csv",
+      "fresh_sha256": "124128e886eba2d9a437b59f1eadca63727f842ac3aba02f84c4fe49644af2e4",
+      "rows": 360,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 319,
+      "depth_exactly_matching_rows": 323,
+      "max_absolute_depth_difference": 95,
+      "baseline_depth_exactly_matching_rows": 360,
+      "differing_columns": {
+        "swap_count": 37,
+        "single_qubit_gate_count": 10,
+        "two_qubit_gate_count": 37,
+        "depth": 37,
+        "entangling_layer_count": 37,
+        "gate_count": 37,
+        "gate_count_ratio_fc": 33,
+        "gate_count_diff_fc": 33,
+        "depth_ratio_fc": 33,
+        "depth_diff_fc": 33,
+        "entangling_layer_ratio_fc": 33,
+        "entangling_layer_diff_fc": 33,
+        "gate_count_ratio_native_fc": 37,
+        "gate_count_diff_native_fc": 37,
+        "depth_ratio_native_fc": 37,
+        "depth_diff_native_fc": 37,
+        "entangling_layer_ratio_native_fc": 37,
+        "entangling_layer_diff_native_fc": 37
+      }
+    },
+    {
+      "archived": "paper_images/phase_diagram/depth_by_k2_dense_n32_layers1_samples20_mean_standard_rerun.csv",
+      "fresh_sha256": "5673823c74c96be6b199ac18f88b0883f46936e494552b6cceda091c5a799651",
+      "rows": 220,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 218,
+      "depth_exactly_matching_rows": 218,
+      "max_absolute_depth_difference": 582,
+      "baseline_depth_exactly_matching_rows": 220,
+      "differing_columns": {
+        "swap_count": 2,
+        "single_qubit_gate_count": 1,
+        "two_qubit_gate_count": 2,
+        "depth": 2,
+        "entangling_layer_count": 2,
+        "gate_count": 2,
+        "gate_count_ratio_fc": 2,
+        "gate_count_diff_fc": 2,
+        "depth_ratio_fc": 2,
+        "depth_diff_fc": 2,
+        "entangling_layer_ratio_fc": 2,
+        "entangling_layer_diff_fc": 2,
+        "gate_count_ratio_native_fc": 2,
+        "gate_count_diff_native_fc": 2,
+        "depth_ratio_native_fc": 2,
+        "depth_diff_native_fc": 2,
+        "entangling_layer_ratio_native_fc": 2,
+        "entangling_layer_diff_native_fc": 2
+      }
+    },
+    {
+      "archived": "paper_images/phase_diagram/depth_by_k2_local_n32_layers1_samples20_mean_standard_rerun.csv",
+      "fresh_sha256": "99d8ab7010493d734edc2c4c494260147a52a10326ad7375bcccd2acdb1d2e5e",
+      "rows": 220,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 220,
+      "depth_exactly_matching_rows": 220,
+      "max_absolute_depth_difference": 0,
+      "baseline_depth_exactly_matching_rows": 220,
+      "differing_columns": {}
+    },
+    {
+      "archived": "paper_images/phase_diagram/depth_by_k2_rhg_n127_layers1_samples20_mean_standard_rerun.csv",
+      "fresh_sha256": "8544aa5fa2b57e61f88919bb36498d57ba15d2714ede7424afdd16964c1665fc",
+      "rows": 40,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 40,
+      "depth_exactly_matching_rows": 40,
+      "max_absolute_depth_difference": 0,
+      "baseline_depth_exactly_matching_rows": 40,
+      "differing_columns": {}
+    },
+    {
+      "archived": "paper_images/phase_diagram/depth_by_k2_rhg_n90_layers1_samples20_mean_standard_rerun.csv",
+      "fresh_sha256": "6df8a539c1ceb94798c220e88cfdcd771fec209fc3f5cdda91cf3bf360e88a59",
+      "rows": 80,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 80,
+      "depth_exactly_matching_rows": 80,
+      "max_absolute_depth_difference": 0,
+      "baseline_depth_exactly_matching_rows": 80,
+      "differing_columns": {}
+    },
+    {
+      "archived": "paper_images/phase_diagram/depth_by_k2_sparse_n32_layers1_samples20_mean_standard_rerun.csv",
+      "fresh_sha256": "2d6b821624cf5bd15598514ce904c4a6dd58b974ef6a01f019b3b4f28844f645",
+      "rows": 220,
+      "configuration_and_sample_keys_match": true,
+      "all_columns_numerically_matching_rows": 206,
+      "depth_exactly_matching_rows": 207,
+      "max_absolute_depth_difference": 295,
+      "baseline_depth_exactly_matching_rows": 220,
+      "differing_columns": {
+        "swap_count": 14,
+        "single_qubit_gate_count": 8,
+        "two_qubit_gate_count": 14,
+        "depth": 13,
+        "entangling_layer_count": 13,
+        "gate_count": 14,
+        "gate_count_ratio_fc": 14,
+        "gate_count_diff_fc": 14,
+        "depth_ratio_fc": 13,
+        "depth_diff_fc": 13,
+        "entangling_layer_ratio_fc": 13,
+        "entangling_layer_diff_fc": 13,
+        "gate_count_ratio_native_fc": 14,
+        "gate_count_diff_native_fc": 14,
+        "depth_ratio_native_fc": 13,
+        "depth_diff_native_fc": 13,
+        "entangling_layer_ratio_native_fc": 13,
+        "entangling_layer_diff_native_fc": 13
+      }
+    }
+  ],
+  "full_replay_configuration": {
+    "standard_scaling_initial_seed": 42,
+    "rhg_scaling_initial_seed": 42,
+    "sc3_scaling_correction_seed": 1234,
+    "phase_seed": 42,
+    "standard_pattern_order": [
+      "dense",
+      "local",
+      "sparse"
+    ],
+    "scaling_circuits_per_pattern": 10,
+    "phase_circuits_per_pattern": 20,
+    "placement_strategy": "default",
+    "logical_circuit_backend": "qiskit",
+    "full_device_placement": true,
+    "n_layers": 1,
+    "rhg_initial_seed_provenance": "Generator default. Saved baseline counts cannot independently identify the original angles.",
+    "all_baseline_depths_match_archive": true,
+    "fresh_scaling_correction_manifest": {
+      "hardware_label": "SC_3",
+      "hardware_base": "ibm_washington",
+      "standard_qubits": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        24,
+        28,
+        32
+      ],
+      "rhg_qubits": [
+        18,
+        44,
+        90,
+        127
+      ],
+      "samples": 10,
+      "seed": 1234,
+      "logical_circuit_backend": "qiskit",
+      "native_compiler": "pytket",
+      "placement_strategy": "default",
+      "full_device_placement": true,
+      "optimization_level": 2,
+      "n_layers": 1,
+      "qiskit_version": "2.3.1",
+      "pytket_version": "2.15.0",
+      "pytket_qiskit_version": "0.77.0"
+    }
+  },
+  "fresh_paper_value_comparisons": [
+    {
+      "pattern": "dense",
+      "hardware": "google_sycamore_32",
+      "archived_mean_depth": 3357.0,
+      "fresh_mean_depth": 3357.0,
+      "archived_rounded_depth": 3357,
+      "fresh_rounded_depth": 3357,
+      "archived_rounded_overhead": 6.8,
+      "fresh_rounded_overhead": 6.8
+    },
+    {
+      "pattern": "dense",
+      "hardware": "google_willow_32",
+      "archived_mean_depth": 1839.0,
+      "fresh_mean_depth": 1839.0,
+      "archived_rounded_depth": 1839,
+      "fresh_rounded_depth": 1839,
+      "archived_rounded_overhead": 3.7,
+      "fresh_rounded_overhead": 3.7
+    },
+    {
+      "pattern": "dense",
+      "hardware": "ibm_washington_32",
+      "archived_mean_depth": 1028.0,
+      "fresh_mean_depth": 998.9,
+      "archived_rounded_depth": 1028,
+      "fresh_rounded_depth": 999,
+      "archived_rounded_overhead": 5.4,
+      "fresh_rounded_overhead": 5.3
+    },
+    {
+      "pattern": "dense",
+      "hardware": "ionq_forte_32",
+      "archived_mean_depth": 79.0,
+      "fresh_mean_depth": 79.0,
+      "archived_rounded_depth": 79,
+      "fresh_rounded_depth": 79,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "dense",
+      "hardware": "oqc_toshiko_32",
+      "archived_mean_depth": 3148.2,
+      "fresh_mean_depth": 3143.0,
+      "archived_rounded_depth": 3148,
+      "fresh_rounded_depth": 3143,
+      "archived_rounded_overhead": 7.3,
+      "fresh_rounded_overhead": 7.2
+    },
+    {
+      "pattern": "dense",
+      "hardware": "quantinuum_helios_32",
+      "archived_mean_depth": 66.0,
+      "fresh_mean_depth": 66.0,
+      "archived_rounded_depth": 66,
+      "fresh_rounded_depth": 66,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "dense",
+      "hardware": "rigetti_ankaa_32",
+      "archived_mean_depth": 922.0,
+      "fresh_mean_depth": 922.0,
+      "archived_rounded_depth": 922,
+      "fresh_rounded_depth": 922,
+      "archived_rounded_overhead": 5.0,
+      "fresh_rounded_overhead": 5.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "google_sycamore_32",
+      "archived_mean_depth": 254.0,
+      "fresh_mean_depth": 254.0,
+      "archived_rounded_depth": 254,
+      "fresh_rounded_depth": 254,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "google_willow_32",
+      "archived_mean_depth": 254.0,
+      "fresh_mean_depth": 254.0,
+      "archived_rounded_depth": 254,
+      "fresh_rounded_depth": 254,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "ibm_washington_32",
+      "archived_mean_depth": 99.0,
+      "fresh_mean_depth": 99.0,
+      "archived_rounded_depth": 99,
+      "fresh_rounded_depth": 99,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "ionq_forte_32",
+      "archived_mean_depth": 49.0,
+      "fresh_mean_depth": 49.0,
+      "archived_rounded_depth": 49,
+      "fresh_rounded_depth": 49,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "oqc_toshiko_32",
+      "archived_mean_depth": 254.0,
+      "fresh_mean_depth": 254.0,
+      "archived_rounded_depth": 254,
+      "fresh_rounded_depth": 254,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "quantinuum_helios_32",
+      "archived_mean_depth": 36.0,
+      "fresh_mean_depth": 36.0,
+      "archived_rounded_depth": 36,
+      "fresh_rounded_depth": 36,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "local",
+      "hardware": "rigetti_ankaa_32",
+      "archived_mean_depth": 96.0,
+      "fresh_mean_depth": 96.0,
+      "archived_rounded_depth": 96,
+      "fresh_rounded_depth": 96,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "rhg",
+      "hardware": "ibm_washington_127",
+      "archived_mean_depth": 1128.0,
+      "fresh_mean_depth": 1128.0,
+      "archived_rounded_depth": 1128,
+      "fresh_rounded_depth": 1128,
+      "archived_rounded_overhead": 20.9,
+      "fresh_rounded_overhead": 20.9
+    },
+    {
+      "pattern": "rhg",
+      "hardware": "google_willow_90",
+      "archived_mean_depth": 614.0,
+      "fresh_mean_depth": 614.0,
+      "archived_rounded_depth": 614,
+      "fresh_rounded_depth": 614,
+      "archived_rounded_overhead": 5.3,
+      "fresh_rounded_overhead": 5.3
+    },
+    {
+      "pattern": "rhg",
+      "hardware": "ibm_washington_90",
+      "archived_mean_depth": 550.0,
+      "fresh_mean_depth": 550.0,
+      "archived_rounded_depth": 550,
+      "fresh_rounded_depth": 550,
+      "archived_rounded_overhead": 11.5,
+      "fresh_rounded_overhead": 11.5
+    },
+    {
+      "pattern": "rhg",
+      "hardware": "quantinuum_helios_90",
+      "archived_mean_depth": 19.0,
+      "fresh_mean_depth": 19.0,
+      "archived_rounded_depth": 19,
+      "fresh_rounded_depth": 19,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "google_sycamore_32",
+      "archived_mean_depth": 1501.1,
+      "fresh_mean_depth": 1501.1,
+      "archived_rounded_depth": 1501,
+      "fresh_rounded_depth": 1501,
+      "archived_rounded_overhead": 4.3,
+      "fresh_rounded_overhead": 4.3
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "google_willow_32",
+      "archived_mean_depth": 1298.3,
+      "fresh_mean_depth": 1304.6,
+      "archived_rounded_depth": 1298,
+      "fresh_rounded_depth": 1305,
+      "archived_rounded_overhead": 3.7,
+      "fresh_rounded_overhead": 3.7
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "ibm_washington_32",
+      "archived_mean_depth": 678.95,
+      "fresh_mean_depth": 679.6,
+      "archived_rounded_depth": 679,
+      "fresh_rounded_depth": 680,
+      "archived_rounded_overhead": 5.1,
+      "fresh_rounded_overhead": 5.1
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "ionq_forte_32",
+      "archived_mean_depth": 59.5,
+      "fresh_mean_depth": 59.5,
+      "archived_rounded_depth": 60,
+      "fresh_rounded_depth": 60,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "oqc_toshiko_32",
+      "archived_mean_depth": 1837.3,
+      "fresh_mean_depth": 1843.5,
+      "archived_rounded_depth": 1837,
+      "fresh_rounded_depth": 1844,
+      "archived_rounded_overhead": 6.0,
+      "fresh_rounded_overhead": 6.0
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "quantinuum_helios_32",
+      "archived_mean_depth": 47.2,
+      "fresh_mean_depth": 47.2,
+      "archived_rounded_depth": 47,
+      "fresh_rounded_depth": 47,
+      "archived_rounded_overhead": 1.0,
+      "fresh_rounded_overhead": 1.0
+    },
+    {
+      "pattern": "sparse",
+      "hardware": "rigetti_ankaa_32",
+      "archived_mean_depth": 541.5,
+      "fresh_mean_depth": 541.5,
+      "archived_rounded_depth": 542,
+      "fresh_rounded_depth": 542,
+      "archived_rounded_overhead": 4.1,
+      "fresh_rounded_overhead": 4.1
+    }
+  ],
+  "fresh_paper_value_summary": {
+    "hardware_pattern_entries": 25,
+    "rounded_depth_matches": 20,
+    "rounded_overhead_matches": 23
+  },
+  "environment": {
+    "hash_locked_install": true,
+    "dependency_check": "passed",
+    "hash_lock_sha256": "366f05b5d61bdf08dffe9b271cbc6cdc8dfec77c929d62bce53dbcf5312aa50d"
+  },
+  "figure_comparisons": [
+    {
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_dense.pdf",
+      "generated": "reproduced/reference/scaling/ratio_vs_qubits_dense.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/percolation/pattern_summaries32/dense.pdf",
+      "generated": "reproduced/reference/percolation/pattern_summaries/dense.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_sparse.pdf",
+      "generated": "reproduced/reference/scaling/ratio_vs_qubits_sparse.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/percolation/pattern_summaries32/sparse.pdf",
+      "generated": "reproduced/reference/percolation/pattern_summaries/sparse.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_local.pdf",
+      "generated": "reproduced/reference/scaling/ratio_vs_qubits_local.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/percolation/pattern_summaries32/local.pdf",
+      "generated": "reproduced/reference/percolation/pattern_summaries/local.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/compilation_overhead/default/ratio_vs_qubits_rhg_default_notitle_extra_extrapolation_rhg.pdf",
+      "generated": "reproduced/reference/scaling/ratio_vs_qubits_rhg.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/percolation/pattern_summaries32/rhg.pdf",
+      "generated": "reproduced/reference/percolation/pattern_summaries/rhg.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_dense_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "generated": "reproduced/reference/phase/dense_32.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_sparse_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "generated": "reproduced/reference/phase/sparse_32.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_local_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "generated": "reproduced/reference/phase/local_32.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n90_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "generated": "reproduced/reference/phase/rhg_90.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/fc_1.pdf",
+      "generated": "reproduced/reference/topologies/quantinuum_helios.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/fc_2.pdf",
+      "generated": "reproduced/reference/topologies/ionq_forte.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/ladder.pdf",
+      "generated": "reproduced/reference/topologies/ladder.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/sc_4.pdf",
+      "generated": "reproduced/reference/topologies/rigetti_ankaa.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/ring.pdf",
+      "generated": "reproduced/reference/topologies/ring.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/sc_5.pdf",
+      "generated": "reproduced/reference/topologies/oqc_toshiko.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/sc_2.pdf",
+      "generated": "reproduced/reference/topologies/google_sycamore.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/sc_3.pdf",
+      "generated": "reproduced/reference/topologies/ibm_washington.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/sc_1.pdf",
+      "generated": "reproduced/reference/topologies/google_willow.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/topologies/devices/line.pdf",
+      "generated": "reproduced/reference/topologies/line.pdf",
+      "pixel_equal_at_72_dpi": true
+    },
+    {
+      "reference": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n127_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "generated": "reproduced/reference/phase/rhg_127.pdf",
+      "pixel_equal_at_72_dpi": true
+    }
+  ],
+  "reproducibility": "The saved CSVs reproduce the paper values and plots. Fresh compilation can give different routed depths because placement uses a time-limited search.",
+  "compiler_placement": {
+    "pytket_version": "2.15.0",
+    "pass": "DefaultMappingPass",
+    "placement": "GraphPlacement",
+    "timeout_ms": 100,
+    "matches": 2000,
+    "maximum_pattern_depth": 100,
+    "maximum_pattern_gates": 100,
+    "sensitivity_to_system_load": true
+  }
+}

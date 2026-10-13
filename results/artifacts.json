@@ -1,0 +1,159 @@
+{
+  "artifacts": [
+    {
+      "path": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_dense.pdf",
+      "sha256": "be8b25b94783808acafa56bc2e5112347488c00533a1d661f814f47814335aad",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_local.pdf",
+      "sha256": "85578899e24fdee49d8a0c142af27b07c32ec7536aea5e52920c71c27d848999",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/compilation_overhead/default/ratio_vs_qubits_default_notitle_extra_extrapolation_sparse.pdf",
+      "sha256": "0284ca6bc345b12a5b063ebc17fb9f3becddd9bb45c39798f1938c6e02f158e3",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/compilation_overhead/default/ratio_vs_qubits_rhg_default_notitle_extra_extrapolation_rhg.pdf",
+      "sha256": "97d4ae943cf52a355add0cea73a8dfccd2d94c6483902ab523ad3b5d4a3e1d32",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/compilation_overhead/results_default.csv",
+      "sha256": "d15c49cfd3677fc0f31087c6ba19d72ac7c72cd480f499fdc842028ba79fcdd2",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/compilation_overhead/results_rhg_default.csv",
+      "sha256": "055acac196c398c53c106c2f1404b7b2f02ad499abf03ad050503d1f279f61fc",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/iqp_schematics/fig1.pdf",
+      "sha256": "9ec210bb23788e0c02f3d7f534fcca5d9cbedd37a5434392d759af5a88e357db",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/percolation/pattern_summaries32/dense.pdf",
+      "sha256": "3ae20cd693106d5980aaf456f40619bb63d109412df2088f8a52741b39b6a715",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/percolation/pattern_summaries32/local.pdf",
+      "sha256": "c520be8931c6f475e2e0706d6746e12977112c504ad76a9d032087ba2497eb64",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/percolation/pattern_summaries32/rhg.pdf",
+      "sha256": "381361d8ce863027247f46bbe694f3d2cd178a46ae0a0fc1f7d666057ba1fa09",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/percolation/pattern_summaries32/sparse.pdf",
+      "sha256": "159b605c0ac5acdd35912bd8c8a5c4fd3f4e60c89ba1aa375f21e8b1e7868812",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/phase_diagram/depth_by_k2_dense_n32_layers1_samples20_mean_standard_rerun.csv",
+      "sha256": "3007ffe3340c83b75e393647bd7769891b9fa7e8f0e938f7948460cd8fbbe9cb",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/phase_diagram/depth_by_k2_local_n32_layers1_samples20_mean_standard_rerun.csv",
+      "sha256": "99d8ab7010493d734edc2c4c494260147a52a10326ad7375bcccd2acdb1d2e5e",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/phase_diagram/depth_by_k2_rhg_n127_layers1_samples20_mean_standard_rerun.csv",
+      "sha256": "8544aa5fa2b57e61f88919bb36498d57ba15d2714ede7424afdd16964c1665fc",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/phase_diagram/depth_by_k2_rhg_n90_layers1_samples20_mean_standard_rerun.csv",
+      "sha256": "6df8a539c1ceb94798c220e88cfdcd771fec209fc3f5cdda91cf3bf360e88a59",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/phase_diagram/depth_by_k2_sparse_n32_layers1_samples20_mean_standard_rerun.csv",
+      "sha256": "c821925cd0265e694cc82ad5ba78651cda57631fdc678393d7eab02ebf001b7f",
+      "role": "experiment samples"
+    },
+    {
+      "path": "paper_images/phase_diagram_qce/phase_diagram_dense_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "sha256": "4bccb5bdfc5d66efa926778d0485a48f40d9eaed0f6f0b247a3d565b504d6e57",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/phase_diagram_qce/phase_diagram_local_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "sha256": "e749b15aff1753f9700c1e56e9343b5c0d9d65e32478f0ca8e66af42d6bd6736",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n90_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "sha256": "978a3e659cb2bcb7ce6dac991d27f1a6622f667a62b192cf0bc0c9e126118ee3",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/phase_diagram_qce/phase_diagram_sparse_k2_n32_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "sha256": "61fc880967cce46acfcaf6953ef382170efd0442ea450c4fc31582394fc3645c",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/fc_1.pdf",
+      "sha256": "dc3370ece62da8015da9514820d2a086ee9294edb9e4ffb16865ef702845d690",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/fc_2.pdf",
+      "sha256": "585e258840fb0dafaac902a046a248be631cbe79e0c02a6c9b37266e4aee5c1c",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/ladder.pdf",
+      "sha256": "646d1d8bd5d4f5e124fd4185a1663e9a5c9679acae783c9360f5b2266c33235c",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/line.pdf",
+      "sha256": "b439af7ed874163efcad18db712aff00ad7cbcc0d560b8590579a6f70780e137",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/ring.pdf",
+      "sha256": "9adf6975ca9aa6c7b4f11207d11b06a2296de973bb5aa183039ca4ada9376135",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/sc_1.pdf",
+      "sha256": "b537c934d8e6c14f0b31846e39798fa9cf8845d6a3f06f4f510858b4d36c5c7d",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/sc_2.pdf",
+      "sha256": "362cf9f6ec67f64bacce0f26703f44aed00cd8b8418afc01c86c70dfc13fb629",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/sc_3.pdf",
+      "sha256": "76eb38b862d5206b76fb5328f82dcf6cdb421b5d5770656b813709ef6b04808f",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/sc_4.pdf",
+      "sha256": "831d4a4ea927675ca6744df0a1e46594677d6c0af781051a9685e8b2e4cb012d",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/topologies/devices/sc_5.pdf",
+      "sha256": "eedc7f714d6a890b864dd12442106bb8f8159daa5d83277d442eb9d142105f40",
+      "role": "paper figure"
+    },
+    {
+      "path": "paper_images/phase_diagram_qce/phase_diagram_rhg_k2_n127_layers1_samples20_mean_standard_rerun_linear_anon.pdf",
+      "sha256": "3bb1251318b00108e4494a9c0b7fdaffb698b2556f58248fc2f0474025916cc6",
+      "role": "accompanying figure"
+    }
+  ]
+}
